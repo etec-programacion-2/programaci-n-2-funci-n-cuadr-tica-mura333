@@ -19,3 +19,17 @@ fun main() {
         append(if (c >= 0) "+ $c" else "- ${-c}")
     }
 }
+fun main() {
+    val a = 2
+    val b = -4
+    val c = 1
+
+    println("Tabla de valores de f(x) = ${a}x² + (${b})x + (${c}):")
+    println("x\t|\tf(x)")
+    println("-----------------")
+
+    for (x in -5..5) {
+        val fx = a * x * x + b * x + c
+        println("$x\t|\t$fx")
+    }
+}
