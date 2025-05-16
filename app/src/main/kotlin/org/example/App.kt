@@ -3,11 +3,11 @@ import kotlin.math.sqrt
 fun main() {
     val a = 2
     val b = 5
-    val c = -3    // Validación: a no puede ser 0 en una ecuación cuadrática
+    val c = -3    
     if (a == 0) {
         println("El coeficiente 'a' no puede ser cero. No es una ecuación cuadrática.")
         return
-    }    // Mostrar la función en forma estándar
+    }    
     val funcion = buildString {
         append("${a}x² ")
         append(if (b >= 0) "+ $b" else "- ${-b}")
