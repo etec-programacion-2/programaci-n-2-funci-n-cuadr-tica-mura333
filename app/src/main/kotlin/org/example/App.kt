@@ -13,8 +13,9 @@ fun main() {
         append(if (b >= 0) "+ $b" else "- ${-b}")
         append("x ")
         append(if (c >= 0) "+ $c" else "- ${-c}")
-    }    println("Función ingresada:")
-    println("  f(x) = $funcion = 0\n")
+        println("Función ingresada:")
+    }
+        println("  f(x) = $funcion = 0\n")
 }
 
 
